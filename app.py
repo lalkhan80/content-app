@@ -55,7 +55,7 @@ if st.button("Generate Content ✨"):
                         {"role": "system", "content": "You are a professional content creator."},
                         {"role": "user", "content": prompt}
                     ],
-                    model="llama-3.3-70b-versatile", # Groq's fast Llama 3.3 model
+                    model="openai/gpt-oss-120b", # Groq's Llama 3.3 model
                     temperature=0.7,
                 )
                 
